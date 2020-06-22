@@ -30,6 +30,11 @@ h1, h2, h3, h4, h5, h6 {
   background-color: var(--secondary-color) !important;
 }
 
+/* Section - Hero */
+.hero {
+  background: url('../img/Group\ 59.png') no-repeat center center/cover;
+}
+
 .hero-bg {
   height: 597px;
 }
@@ -43,6 +48,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 24px;
 }
 
+/* Section - Why Us */
 .why-us {
   text-align: center;
 }
@@ -52,12 +58,13 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 30px;
 }
 
-.why-us, .who, .product, .testimony {
+.why-us, .who, .product, .testimony, .awards {
   padding-top: 5rem;
   padding-bottom: 5rem;
 }
 
-.who h3, .testimony h3 {
+/* Section Who */
+.who h3, .testimony h3, .awards h3 {
   font-size: 36px;
   margin-bottom: 1rem;
 }
@@ -67,8 +74,21 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 30px;
 }
 
+/* Section - Product */
 .product .product-img {
   height: 440px;
+}
+
+.product .product-img.product1 {
+  background: url('../img/Rectangle\ 11-3.png') no-repeat center center/cover;
+}
+
+.product .product-img.product2 {
+  background: url('../img/skirt-5304133_1280.jpg') no-repeat center center/cover;
+}
+
+.product .product-img.product3 {
+  background: url('../img/fashion-5205675_1280.jpg') no-repeat center center/cover;
 }
 
 .product h3 {
@@ -87,6 +107,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #263238;
 }
 
+/* Section - Testimony */
 .testimony h3 {
   color: #fff;
   margin-bottom: 2rem;
@@ -96,6 +117,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-right: 3rem;
   padding: 2rem;
   text-align: left;
+  border-radius: 7px;
 }
 
 .testimony .col-md:last-child {
@@ -121,4 +143,64 @@ h1, h2, h3, h4, h5, h6 {
 .testimony p {
   font-size: 13px;
   line-height: 17px;
+}
+
+/* Awards */
+.awards h3 {
+  font-size: 40px;
+  margin-bottom: 3rem;
+}
+
+.awards p {
+  font-size: 20px;
+  color: var(--primary-color);
+}
+
+@media (max-width: 768px) {
+  .hero .hero-bg {
+    height: 240px;
+    background: url('../img/attractive-1846127_1280.jpg') no-repeat center center/cover;
+  }
+
+  .hero .hero-bg div {
+    display: none;
+  }
+
+  .hero .hero-description-sm {
+    padding: 2rem 3rem;
+    background: #fff;
+  }
+
+  .hero .hero-description-sm h2 {
+    font-size: 36px;
+  }
+
+  .why-us .col-md, .who .col-md:first-child {
+    margin-bottom: 2rem;
+  }
+
+  .why-us .col-md:last-child, .product .col-md:last-child, .testimony .col-md:last-child {
+    margin-bottom: 0;
+  }
+
+  .product .col-md {
+    margin-bottom: 3.5rem;
+  }
+
+  .testimony .col-md {
+    margin-right: 0;
+    margin-bottom: 2rem;
+  }
+
+  .awards img {
+    width: 65px;
+  }
+
+  .awards img.lg {
+    width: 100px;
+  }
+
+  .awards p {
+    font-size: 10px;
+  }
 }

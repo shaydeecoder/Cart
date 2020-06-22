@@ -45,10 +45,17 @@ a:hover, a:focus {
     grid-template-rows: auto;
     margin: 0 auto;
 }
+<<<<<<< HEAD
 .product-container { margin: 0 auto;  padding: 2rem }
 .product {
     /* grid-template-columns: repeat(3, 1fr); */
     grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+=======
+.product-container { margin: 0 auto;  padding: 2rem 5rem }
+.product {
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-columns: repeat(auto-fill, minmax(270px, 1fr)); */
+>>>>>>> 518379b7e9bc763980bd9a402e7c4b5e488b99f3
     grid-gap: 3rem 2rem;
     margin: 3rem 0;
 }
