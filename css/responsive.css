@@ -1,0 +1,20 @@
+/* Index page media query */
+@media (max-width: 599px) { 
+    h1,h2,h6 { font-size: 1.3rem }
+    /* Header */
+    .title { padding: 1rem 0 } 
+    .title .card { padding: 0 } 
+
+    /* Card */
+    .services-container { padding: 0 } 
+    .services .card { margin: 0 auto 2rem; padding: 0  } 
+}
+
+/* Product list */
+@media (max-width: 767px) { 
+    .product-container{  padding: 0 2rem }
+    .product { grid-template-columns: 1fr }
+}
+@media (min-width: 768px) and (max-width: 1000px) { .product { grid-template-columns: repeat(2, 1fr) } }
+
+/* End Index page media query */

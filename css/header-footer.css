@@ -1,0 +1,39 @@
+/* Header */
+
+:root {
+  --primary-color: #f69225;
+  --secondary-color: #dadada;
+  --font-stack: 'Poppins', sans-serif;
+}
+
+header {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+header nav .current {
+  border-bottom: 2px solid var(--primary-color);
+}
+
+header nav .nav-item {
+  margin-right: 1rem;
+}
+
+header nav .btn.bg-primary {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+
+/* footer */
+a { color: inherit }
+
+a:hover, a:focus { color: inherit }
+
+.icons { font-size: 3rem }
+
+.footer-logo img {
+  width: 50px;
+  height: 50px;
+  display: block;
+}
